@@ -21,6 +21,7 @@ But before that, *check out* the ***rules*** that are to be followed before gene
   - While submitting other Problems, make sure to add ***the question on the top of the file.***
 5. After making a Pull Request, ***make sure to add your name and your github link in the CONTRIBUTION.md file according to the entry that has been made.***
 6. If you are having any projects, you can upload them too! 
+7. Ignore the Base_repo, and additions files, I have created them for Checking purpose only.
 
 ---
 
