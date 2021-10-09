@@ -1,1 +1,1 @@
-# HacktoberFest2021_IN4MALS
+# The Official IN$MALS Hacktoberfest Git Repo is LIVE Now!
