@@ -34,10 +34,13 @@ void Print(){
 int main()
 {
     head=NULL;
-    Push(4);
-    Push(6);
-    Push(8);
-    Push(2);
+    int noofelt;
+    scanf("%d",&noofelt);
+    int items[noofelt];
+    for(int i=0;i<noofelt;++i)
+        scanf("%d",&items[i]);
+    for(int i=0;i<noofelt;++i)
+        Push(items[i]);
     Print();
     Pop();
     Pop();
