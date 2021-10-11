@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void selectionSort(int a[100], int n){
+void selectionSort(int a[], int n){
   int min,temp;
   for (int i=0;i<n-1;i++){
     min = i;
@@ -17,7 +17,6 @@ void selectionSort(int a[100], int n){
 }
 
 int main(){
-
   int x;
   printf("\nEnter size of array: ");
   scanf("%d",&x);
@@ -28,13 +27,9 @@ int main(){
   }
   selectionSort(arr,x);
   printf("\nSorted array: ");
-  
-  
   for(int i=0;i<x;i++){
     printf("%d ",arr[i]);
   }
-
-
   return 0;
 }
 
