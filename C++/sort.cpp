@@ -133,9 +133,18 @@ int main()
     {
         cin>>a[i];
     }
-    // bubblesort(a);
-    // selectionsort(a);
-    // insertionsort(a);
+    cout<<"Bubble Sort\n";
+     bubblesort(a);
+        display(a);
+    cout<<"\n\nSelection Sort\n";
+     selectionsort(a);
+        display(a);
+
+    cout<<"\n\nInsertion Sort\n";
+     insertionsort(a);
+        display(a);
+
+    cout<<"\n\nMerge Sort\n";
     mergesort(a , 0 ,a.size()-1);
     display(a);
    return 0;
